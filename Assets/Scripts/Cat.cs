@@ -22,15 +22,4 @@ public class Cat : Animal
         Debug.Log(text);
     }
     
-    
-    private void Start()
-    {
-        Name = "Cat";
-        Identity = 123456;
-    }
-
-    private void Update()
-    {
-        
-    }
 }

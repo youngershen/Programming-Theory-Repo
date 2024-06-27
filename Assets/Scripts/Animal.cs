@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public abstract class Animal : MonoBehaviour
+public abstract class Animal
 {
 
     public string Name { get; protected set; }
@@ -19,14 +19,5 @@ public abstract class Animal : MonoBehaviour
         var text = Name + " is walking at speed " + speed;
         Debug.Log(text);
     }
-    
-    private void Start()
-    {
-        
-    }
 
-    private void Update()
-    {
-        
-    }
 }

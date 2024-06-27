@@ -19,16 +19,6 @@ public class Dog : Animal
     {
         const int speed = 15;
         var text = Name + " is walking at speed " + speed;
-        Debug.Log(text);    }
-
-    private void Start()
-    {
-        Name = "Dog";
-        Identity = 654321;
-    }
-
-    private void Update()
-    {
-        
+        Debug.Log(text);
     }
 }
